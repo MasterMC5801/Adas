@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="icon" href="images/logo.png">
+  <meta name="description" content="Sito ufficiale di play.Adashaus.it!">
+  <meta name="author" content="Astronawta">
+
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/pages/contact.css">
+
+  <title>Home</title>
+</head>
+
+<body>
+  <!--Navbar-->
+  <div class="navbar">
+    <div class="menu-mobile">
+      <a href="index.html">
+        <div class="logo">
+          <img src="images/logo.png" class="logo-img">
+          <h3 class="server-name">Adashaus</h3>
+        </div>
+      </a>
+
+      <!-- Hamburger menu -->
+      <div class="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+
+    <div class="links">
+      <a href="index.html" class="link">Home</a>
+      <a href="rules.html" class="link active">Referenzen</a>
+      <a href="admin-team.html" class="link">Impressum</a>
+      <a href="contact.html" class="link">Kontakt</a>
+
+    </div>
+  </div>
+
+  <!--Header-->
+  <section id="header">
+    <div class="content">
+
+      <div class="left">
+        <div class="server-name">
+          <p> </p>
+          <h1 class="minecraft-server-ip">Gestalten Sie Ihre Wel</h1>
+        </div>
+        <p class="server-description">
+          Sichern Sie sich die richtige Betreuung durch führende Spezialisten für das jeweilige Fachgebiet.
+        </p>
+        <div class="buttons">
+          <button class="copy-ip" onclick="openLink(link)">Kontaktieren Sie
+            Uns</button>
+        </div>
+      </div>
+
+      <div class="right">
+        <img src="images/logo.png" class="logo-img logo-img-header">
+
+      </div>
+    </div>
+  </section>
+
+  <!--About us-->
+  <section id="about">
+    <div class="content">
+      <div class="left">
+        <h2 class="section-title">ADAS Gruppe</h2>
+        <p class="about-us">ist heute ein modernes mittelständisches Bauunternehmen, das sich gemeinsam mit
+          seinen Kunden weiter entwickelt und auf der einen Seite durch die Solidität seiner Handlungen, auf
+          der anderen Seite durch Qualität und Vertragstreue seiner Leistungen überzeugt
+        </p>
+      </div>
+
+      <div class="right">
+        <img src="images/about-section-person-image.png" alt="Minecraft person">
+        <div class="img-background"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form information -->
+  <section id="minigames">
+    <div class="content miniGames-list">
+      <div class="game">
+        <!--Header-->
+        <div class="content">
+          <form action="/submit_form" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">E-Mail-Adresse:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="phone">Telefon:</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Senden">
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Discord-->
+  <section id="discord">
+    <div class="content">
+      <h2 class="section-title">Bei der Arbeit mit uns profitieren Sie von einem Team, das Ihr Interesse im Auge
+        hat.</span></h2>
+    </div>
+  </section>
+
+  <!--Vote (max 2 vote sites)-->
+  <section id="vote">
+    <div class="content">
+      <div class="info">
+        <h2 class="section-title">Warum uns wählen</h2>
+        <p class="section-description">Bauen ist unsere Leidenschaft.Lassen Sie uns an Ihren Träumen teilhaben
+          und wir verwirklichen sie mit dem besten Team.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!--FAQs-->
+
+  <!--Footer-->
+  <footer id="footer">
+    <p class="copyright">&copy; 2024 <span class="server-name-footer">Adashaus</span> Alle Rechte vorbehalten.</p>
+    <div class="content">
+      <a href="https://www.facebook.com/p/ADAS-Haus-100063497291733/?paipv=0&eav=AfbV2H3eTYmMwpG8YgkjWiiSRcyYjRSDsoPc0vLgc5rBm5Zw1PfiXdpD-OQ2ClAtSH4&_rdr"
+        class="socials"><img src="images/facebook.png"></img></a>
+
+      <a href="rules.html" class="socials"><img src="images/linkedin.png"></img></a>
+
+      <a href="admin-team.html" class="socials"><img src="images/pinterest.png"></img></a>
+    </div>
+  </footer>
+</body>
+<script src="js/script.js"></script>
+<script src="https://kit.fontawesome.com/cbf5ee59c8.js" crossorigin="anonymous"></script>
+
+</html>
