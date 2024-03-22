@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="de" class="has-navbar-fixed-top">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Styles CSS Bulma -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+
+    <!-- Flag Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css" />
+
+    <style>
+        .hero-background {
+            background-image: url('img/header-background.webp');
+            background-size: cover;
+            background-position: center center;
+        }
+    </style>
+
+    <!-- Title -->
+    <title>ADAS Haus - Startseite</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar is-dark is-fixed-top">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://bulma.io">
+                <img src="img/logo.webp" width="128" height="128">
+            </a>
+            <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+            <div class="navbar-start">
+
+                <!-- Home -->
+                <a class="navbar-item" href="https://bulma.io/">
+                    Startseite
+                </a>
+
+                <!-- References -->
+                <a class="navbar-item" href="https://bulma.io/blog/">
+                    Referenzen
+                </a>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="field is-grouped">
+
+                        <!-- Language Selector -->
+                        <div class="dropdown is-right">
+                            <div class="dropdown-trigger">
+                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu2">
+                                    <span class="icon is-right">
+                                        <i class="fi fi-de"></i>
+                                    </span>
+                                    <span class="is-centered">Sprache</span>
+                                    <span class="icon is-small">
+                                        <i class="ph ph-caret-down" aria-hidden="true"></i>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="dropdown-menu" id="dropdown-menu6" role="menu">
+                                <div class="dropdown-content">
+                                    <div class="dropdown-item">
+                                        <span class="icon">
+                                            <i class="fi fi-de"></i>
+                                            <p class="is-centered">Deutsch</p>
+                                        </span>
+                                    </div>
+                                    <hr class="dropdown-divider">
+                                    <div class="dropdown-item">
+                                        <p>You simply need to use a <code>&lt;div&gt;</code> instead.</p>
+                                    </div>
+                                    <hr class="dropdown-divider">
+                                    <a href="#" class="dropdown-item">
+                                        This is a link
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Image -->
+    <section class="hero is-primary is-medium hero-background">
+        <div class="hero-body has-text-centered">
+            <p class="title has-text">
+                Gestalten Sie Ihre Wel
+            </p>
+            <p class="subtitle">
+                Subtitle
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="section">
+        <div class="container">
+            <footer class="footer">
+                <div class="content has-text-centered">
+                    <p>
+                        <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is
+                        licensed
+                        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+                        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Script -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
